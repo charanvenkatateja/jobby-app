@@ -1,0 +1,92 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  align-self: center;
+}
+.failure-para {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+
+  align-self: center;
+}
+.failure-img {
+  height: 250px;
+  width: 250px;
+}
+.retry-button {
+  background-color: blue;
+  color: #ffffff;
+  font-size: 15px;
+  align-self: center;
+  border: none;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 13px;
+  padding-right: 13px;
+  outline: none;
+  cursor: pointer;
+}
+.all-products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.no-jobs-img {
+  width: 300px;
+  height: 300px;
+}
+.no-jobs-para {
+  font-size: 10px;
+  content: #ffffff;
+  align-self: center;
+}
+.no-jobs-heading {
+  font-size: 35px;
+  font-weight: bold;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-products-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+.zero {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}

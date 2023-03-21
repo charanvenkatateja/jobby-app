@@ -1,0 +1,41 @@
+.line {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.active-style {
+  color: blue;
+}
+.normal-style {
+  color: #ffffff;
+}
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  height: 200px;
+  width: 190px;
+}
+.hr-line {
+  width: 150px;
+  align-self: center;
+  border: 1px solid #ffffff;
+  margin-left: 4px;
+}
+.filter-heading {
+  font-size: 18px;
+  color: #ffffff;
+}
+.render-ordered-list {
+  display: flex;
+  flex-direction: column;
+}
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: 30%;
+}

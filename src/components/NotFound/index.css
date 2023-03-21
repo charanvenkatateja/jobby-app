@@ -1,0 +1,28 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+}
+.not-found-img {
+  height: 300px;
+  width: 300px;
+}
+.not-found-heading {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.not-found-para {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+
+  align-self: center;
+}

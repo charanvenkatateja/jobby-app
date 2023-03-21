@@ -1,0 +1,72 @@
+.product-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: grey;
+  height: 240px;
+  width: auto;
+  padding: 5px;
+}
+.company-container {
+  display: flex;
+  margin: 10px;
+}
+.company-mark {
+  display: flex;
+  flex-direction: column;
+}
+.company-title {
+  font-size: 15px;
+  color: #ffffff;
+}
+.star {
+  color: yellow;
+}
+.rating-logo {
+  font-size: 9px;
+  color: #ffffff;
+}
+.job-type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.job-type-order {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 20px;
+
+  align-items: center;
+}
+.job-type-package {
+  align-self: flex-end;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.employe-type-para {
+  margin-left: 4px;
+  color: #ffffff;
+}
+.icon-logo {
+  color: #ffffff;
+}
+.horizontal-line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ffffff;
+  width: 400px;
+  align-self: center;
+}
+.description-title {
+  color: #ffffff;
+  font-size: 13px;
+  margin-left: 4px;
+  margin-bottom: 3px;
+}
+.description-para {
+  color: #ffffff;
+  font-size: 9px;
+  margin-left: 4px;
+}
