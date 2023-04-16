@@ -59,8 +59,8 @@ class AllProducts extends Component {
     productsList: [],
 
     apiStatus: apiStatusConstants.initial,
-    salaryId: salaryRangesList[0],
-    employmentId: employmentTypesList[0],
+    salaryId: salaryRangesList[0].salaryRangeId,
+    employmentId: employmentTypesList[0].employmentTypeId,
     searchInput: '',
   }
 
