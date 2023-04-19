@@ -9,24 +9,21 @@ const FiltersGroup = props => {
       const {changeSalary, salaryId} = props
       const salaryClassName =
         salary.salaryRangeId === salaryId ? 'active-style' : 'normal-style'
-      const onClickChangeSalary = () => changeSalary(salaryId)
+      const onClickChangeSalary = () => changeSalary(salary.salaryRangeId)
       return (
-        <li className="line">
-          <label htmlFor={salary.salaryRangeId} className={salaryClassName}>
-            {salary.label}
-          </label>
-          <input
-            type="radio"
-            id={salary.salaryRangeId}
-            onClick={onClickChangeSalary}
-          />
+        <li
+          className="line"
+          onClick={onClickChangeSalary}
+          key={salary.salaryRangeId}
+        >
+          <p className={salaryClassName}>{salary.label}</p>
         </li>
       )
     })
   }
 
   const salaryFilter = () => (
-    <div className="filters-container">
+    <div className="filters-container-1">
       <h1 className="filter-heading">Salary Range</h1>
       <ul className="render-ordered-list">{renderSalaryFilters()}</ul>
     </div>
@@ -40,26 +37,24 @@ const FiltersGroup = props => {
         employe.employmentTypeId === employmentId
           ? 'active-style'
           : 'normal-style'
-      const onClickChangeEmploye = () => changeEmployment(employmentId)
+      const onClickChangeEmploye = () =>
+        changeEmployment(employe.employmentTypeId)
       return (
-        <li className="line">
-          <label htmlFor={employe.employmentTypeId} className={employClassName}>
-            {employe.label}
-          </label>
-          <input
-            type="checkbox"
-            id={employe.employmentTypeId}
-            onClick={onClickChangeEmploye}
-          />
+        <li
+          className="line"
+          key={employe.employmentTypeId}
+          onClick={onClickChangeEmploye}
+        >
+          <p className={employClassName}>{employe.label}</p>
         </li>
       )
     })
   }
 
   const employFilter = () => (
-    <div className="filters-container">
+    <div className="filters-container-2">
       <h1 className="filter-heading">Type of Employment</h1>
-      <ul className="render-ordered-list">{renderEmployFilters()}</ul>
+      <ul className="render-ordered-list-2">{renderEmployFilters()}</ul>
     </div>
   )
 

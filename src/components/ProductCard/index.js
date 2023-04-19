@@ -28,8 +28,10 @@ const ProductCard = props => {
           />
           <div className="company-mark">
             <h1 className="company-title">{title}</h1>
-            <BsFillStarFill className="star" />
-            <p className="rating-logo">{rating}</p>
+            <div className="rating-cont">
+              <BsFillStarFill color="yellow" size={35} />
+              <p className="rating-logo">{rating}</p>
+            </div>
           </div>
         </div>
         <div className="job-type-container">

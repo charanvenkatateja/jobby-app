@@ -1,0 +1,67 @@
+.list-similar-jobs-cont {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #272727;
+  border: none;
+  margin: 8px;
+}
+.similar-bottom-sce {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.bottom-part-1 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.loc-para {
+  font-size: 10px;
+  margin-left: 6px;
+  color: white;
+}
+.des {
+  font-size: 8px;
+  color: white;
+}
+.des-title {
+  color: white;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.similar-rating-para {
+  margin-left: 6px;
+  font-size: 10px;
+  color: white;
+}
+.similar-rating {
+  display: flex;
+  align-items: center;
+}
+.similar-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 7px;
+}
+.simalar-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+.similar-company {
+  display: flex;
+  align-items: center;
+}
+.similar-img {
+  height: 120px;
+  width: 120px;
+}
+.similar-rating-para {
+  font-size: 15px;
+  color: white;
+}

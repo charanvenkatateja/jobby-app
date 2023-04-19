@@ -18,7 +18,7 @@ class LoginForm extends Component {
     const {history} = this.props
 
     Cookies.set('jwt_token', jwtToken, {
-      expires: 30,
+      expires: 50,
     })
     history.replace('/')
   }
@@ -32,7 +32,7 @@ class LoginForm extends Component {
     return (
       <>
         <label className="label" htmlFor="username">
-          Username
+          USERNAME
         </label>
         <input
           value={username}
@@ -51,7 +51,7 @@ class LoginForm extends Component {
     return (
       <>
         <label className="label" htmlFor="password">
-          Passsword
+          PASSWORD
         </label>
         <input
           value={password}

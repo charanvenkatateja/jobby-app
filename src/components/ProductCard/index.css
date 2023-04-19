@@ -3,10 +3,11 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: grey;
-  height: 240px;
-  width: auto;
+  background-color: #272727;
+  height: auto;
+  width: 800px;
   padding: 5px;
+  margin: 10px;
 }
 .company-container {
   display: flex;
@@ -15,22 +16,28 @@
 .company-mark {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
 }
 .company-title {
   font-size: 15px;
   color: #ffffff;
 }
-.star {
-  color: yellow;
+.rating-cont {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
+
 .rating-logo {
-  font-size: 9px;
+  font-size: 15px;
   color: #ffffff;
+  margin-left: 20px;
 }
 .job-type-container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 .job-type-order {
   display: flex;
@@ -56,8 +63,7 @@
   margin-top: 5px;
   margin-bottom: 5px;
   border: 1px solid #ffffff;
-  width: 400px;
-  align-self: center;
+  width: 750px;
 }
 .description-title {
   color: #ffffff;

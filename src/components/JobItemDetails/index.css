@@ -1,0 +1,74 @@
+.items-overview-details-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #2c364c;
+  border-radius: 20px;
+  width: auto;
+  min-height: auto;
+}
+.specific-container {
+  min-height: 100vh;
+  background-color: black;
+  padding: 30px;
+}
+.skill-heading {
+  font-size: 30px;
+  margin-top: 12px;
+  color: white;
+  margin-bottom: 12px;
+}
+.un-similar-data-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.un-skill-data-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.life-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.life-description {
+  font-size: 20px;
+  color: white;
+
+  margin-right: 10px;
+}
+.life-img {
+  height: 200px;
+  width: 200px;
+}
+.web-link-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.product-not-found-heading {
+  font-size: 30px;
+  color: white;
+}
+.error-view-image {
+  height: 200px;
+  width: 200px;
+}
+.fail-button {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 4px 10px 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  align-self: center;
+  cursor: pointer;
+}
+.description-para {
+  color: white;
+  font-size: 16px;
+}

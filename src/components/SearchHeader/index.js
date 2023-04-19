@@ -27,8 +27,9 @@ const SearchHeader = props => {
           type="button"
           data-testId="searchButton"
           onClick={onEnterSearchInput}
+          className="search-icon"
         >
-          <BsSearch className="search-icon" />
+          <BsSearch size={25} color="white" />
         </button>
       </div>
     )
